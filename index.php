@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio web Wilton Calvo Barrios desarrollador web frontend y backend"
+    />
+    <meta
+      name="keywords"
+      content="desarrollo web, programador web, frontend, backend"
+    />
+    <meta name="author" content="Wilton Calvo Barrios" />
+    <meta name="robots" content="index,follow" />
+    <title>Wilton Calvo Barrios - Desarrolador Web</title>
+    <link rel="icon" type="image/ico" href="img/logo.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- -----------------------------------------PORTADA------------------------------------------->
+    <header class="header" id="portada">
+      <ul class="ani-portada">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <img class="btn-menu" src="img/boton-menu.svg" />
+      <nav class="menu-navegacion">
+        <img class="btn-cerrar" src="img/boton-cerrar.svg" />
+        <a href="#portada">PORTADA</a>
+        <a href="#sobremi">SOBRE MI</a>
+        <a href="#portafolio">PORTAFOLIO</a>
+        <a href="#contacto">CONTACTO</a>
+        <a href="#social">SOCIAL</a>
+      </nav>
+      <div class="portada">
+        <h1><span>Wilton</span> Calvo Barrios</h1>
+        <h2><span>Web</span> Developer</h2>
+      </div>
+    </header>
+
+    <main>
+      <!-- ---------------------------------------SOBRE MI------------------------------------------>
+      <section class="sobre-mi" id="sobremi">
+        <div class="sm-foto">
+          <img src="img/perfil.jpg" alt="Wilton Calvo Barrios" />
+          <a href="doc/cv_wilton.pdf" target="_blank" class="boton"
+            >Descargar CV</a
+          >
+        </div>
+        <div class="sm-contenido">
+          <div class="ani-sobremi">
+            <h2>Sobre mi</h2>
+            <div>
+              <p>
+                Soy una persona autodidacta, y siempre que puedo intento
+                aprender nuevas tecnologías, me apasiona el Desarrollo Web
+                (Frontend y Backend) y la gestión de Bases de Datos. Actualmente
+                me encuentro terminando mi carrera profesional y capacitándome
+                en diferentes plataformas online, para fortalecer mis
+                conocimientos. Estoy buscando formar parte de un proyecto que me
+                permita crecer profesionalmente.
+              </p>
+              <br />
+            </div>
+            <h2>Habilidades</h2>
+            <div class="div-logos">
+              <div class="logos">
+                <p>HTML5</p>
+                <img src="img/html5.png" />
+              </div>
+              <div class="logos">
+                <p>CSS3</p>
+                <img src="img/css3.png" />
+              </div>
+              <div class="logos">
+                <p>JAVASCRIPT</p>
+                <img src="img/javascript.png" />
+              </div>
+              <div class="logos">
+                <p>MYSQL</p>
+                <img src="img/mysql.png" />
+              </div>
+              <div class="logos">
+                <p>PHP</p>
+                <img src="img/php.png" />
+              </div>
+              <div class="logos">
+                <p>GIT</p>
+                <img src="img/git.png" />
+              </div>
+              <div class="logos">
+                <p>GITHUB</p>
+                <img src="img/github.png" />
+              </div>
+              <div class="logos">
+                <p>REACT</p>
+                <img src="img/react.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------------------------------------PORTAFOLIO---------------------------------------->
+      <section class="portafolio" id="portafolio">
+        <h2>Portafolio</h2>
+        <div class="ani-portafolio">
+          <div class="cont-portafolio">
+            <div class="cont-proyecto">
+              <div class="cont-pro-sup">
+                <img src="img/pro1-img1.png" class="img-proyecto" />
+                <img src="img/pro1-img2.png" class="img-proyecto" />
+              </div>
+              <div class="cont-pro-inf">
+                <h3>Portafolio personal (2021)</h3>
+                <p>
+                  <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span
+                  ><span>PHP</span>
+                </p>
+                <div>
+                  <a href="https://wiltonweb.com/" target="_blank">Ver Sitio</a
+                  ><a
+                    href="https://github.com/wcalvob/wiltonweb"
+                    target="_blank"
+                    >Repositorio</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="cont-proyecto">
+              <div class="cont-pro-sup">
+                <img src="img/pro2-img1.png" class="img-proyecto" />
+                <img src="img/pro2-img2.png" class="img-proyecto" />
+              </div>
+              <div class="cont-pro-inf">
+                <h3>Proyecto estudiante (2018)</h3>
+                <p>
+                  <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span
+                  ><span>PHP</span>
+                </p>
+                <div>
+                  <a
+                    href="https://wiltoncalvo.000webhostapp.com/"
+                    target="_blank"
+                    >Ver Sitio</a
+                  ><a
+                    href="https://github.com/wcalvob/proyectos_unad"
+                    target="_blank"
+                    >Repositorio</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="cont-proyecto">
+              <div class="cont-pro-sup">
+                <img src="img/pro3-img1.png" class="img-proyecto" />
+                <img src="img/pro3-img2.png" class="img-proyecto" />
+              </div>
+              <div class="cont-pro-inf">
+                <h3>Proyecto estudiante (2017)</h3>
+                <p><span>HTML</span><span>CSS</span></p>
+                <div>
+                  <a href="https://wcalvob.github.io/ovi/" target="_blank"
+                    >Ver Sitio</a
+                  ><a href="https://github.com/wcalvob/ovi" target="_blank"
+                    >Repositorio</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="img-pro-zoom">
+        <img src="img/boton-cerrar.svg" alt="" class="btn-cerrar" />
+        <img src="" alt="" class="agregar-img" />
+      </div>
+
+      <!-- ----------------------------------------CONTACTO----------------------------------------->
+      <section class="contacto" id="contacto">
+        <div id="respuesta" class="msj-contacto"></div>
+        <form
+          action=""
+          method="post"
+          id="formulario"
+          onsubmit="return enviar()"
+        >
+          <div class="form">
+            <h2>Contacto</h2>
+
+            <div>
+              <input type="text" name="nombre" id="nombre" required />
+              <label>Nombre</label>
+            </div>
+            <div>
+              <input type="email" name="email" id="email" required />
+              <label>Email</label>
+            </div>
+            <div>
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                rows="4"
+                required
+              ></textarea>
+              <label>Mensaje</label>
+            </div>
+            <div>
+              <input type="submit" class="boton" value="Enviar" />
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script>
+      function enviar() {
+        $.ajax({
+          type: "post",
+          url: "contacto.php",
+          data: $("#formulario").serialize(),
+          success: function (res) {
+            $("#respuesta").html(res);
+          },
+        });
+        return false;
+      }
+    </script>
+
+    <!-- ------------------------------PIE DE PAGINA REDES SOCIALES--------------------------------->
+    <footer id="social">
+      <div class="footer">
+        <div class="marca">
+          <h2>WiltonWeb</h2>
+          <p>Desarrollo Web</p>
+        </div>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/wilton-calvo-barrios-33545010b/"
+            target="_blank"
+            class="social-media-icon"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/wcalvob"
+            target="_blank"
+            class="social-media-icon"
+          >
+            <i class="bx bxl-github"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/wiltoncb"
+            target="_blank"
+            class="social-media-icon"
+          >
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/wilton_calvo_barrios/"
+            target="_blank"
+            class="social-media-icon"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="linea"></div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
