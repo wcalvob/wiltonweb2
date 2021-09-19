@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portafolio web Wilton Calvo Barrios desarrollador web frontend y backend"
+      content="Portafolio Web de Wilton Calvo Barrios - Desarrollador Web Frontend y Backend"
     />
     <meta
       name="keywords"
@@ -13,7 +13,7 @@
     />
     <meta name="author" content="Wilton Calvo Barrios" />
     <meta name="robots" content="index,follow" />
-    <title>Wilton Calvo Barrios - Desarrolador Web</title>
+    <title>Wilton Calvo Barrios - Desarrollador Web</title>
     <link rel="icon" type="image/ico" href="img/logo.png" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
