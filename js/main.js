@@ -44,13 +44,13 @@ window.addEventListener("scroll", function () {
   /* OPACIDAD Y ALTURA PORTADA */
   portada.style.opacity = opacidadVariable;
 
-  if (scrollArriba > alturaVentana) {
+  /* if (scrollArriba > alturaVentana) {
     portada.style.position = "relative";
   } else {
     portada.style.position = "fixed";
     var valorAltura = alturaVentana - scrollActual;
     portada.style.height = valorAltura + "px";
-  }
+  } */
 
   /* ANIMACION SECTION SOBRE MI */
   if (aniSobromi.offsetTop - valorx < scrollArriba) {

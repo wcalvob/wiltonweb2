@@ -7,7 +7,7 @@ $mensaje = $_POST['mensaje'];
 $to = "wilton1121@gmail.com";
 $subject = "Mensaje enviado desde wiltonweb.com por $nombre";
 $message = "$mensaje";
-$headers = "From: $email" . "\r\n" . "CC: wilton1121@gmail.com";
+$headers = "From: $email";
  
 mail($to, $subject, $message, $headers);
 

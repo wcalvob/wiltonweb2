@@ -38,6 +38,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  font-size: 16px;
 }
 .ani-portada li {
   position: absolute;
@@ -50,72 +51,72 @@ body {
 }
 .ani-portada li:nth-child(1) {
   left: 25%;
-  width: 80px;
-  height: 80px;
-  animation-delay: 0s;
+  width: 5em;
+  height: 5em;
+  animation-delay: 3s;
 }
 .ani-portada li:nth-child(2) {
   left: 5%;
-  width: 80px;
-  height: 80px;
-  animation-delay: 2s;
+  width: 5em;
+  height: 5em;
+  animation-delay: 4s;
   animation-duration: 12s;
 }
 .ani-portada li:nth-child(3) {
   right: 30%;
-  width: 70px;
-  height: 70px;
-  animation-delay: 4s;
+  width: 4.37em;
+  height: 4.37em;
+  animation-delay: 3s;
 }
 .ani-portada li:nth-child(4) {
   left: 45%;
-  width: 60px;
-  height: 60px;
+  width: 3.75em;
+  height: 3.75em;
   animation-duration: 16s;
 }
 .ani-portada li:nth-child(5) {
   right: 37%;
-  width: 60px;
-  height: 60px;
+  width: 3.75em;
+  height: 3.75em;
 }
 .ani-portada li:nth-child(6) {
   right: 10%;
-  width: 110px;
-  height: 110px;
-  animation-delay: 3s;
+  width: 6.87em;
+  height: 6.87em;
+  animation-delay: 5s;
 }
 .ani-portada li:nth-child(7) {
   left: 30%;
-  width: 130px;
-  height: 130px;
-  animation-delay: 2s;
+  width: 8.1em;
+  height: 8.1em;
+  animation-delay: 4s;
   animation-duration: 20s;
 }
 .ani-portada li:nth-child(8) {
   left: 50%;
-  width: 50px;
-  height: 50px;
-  animation-delay: 1s;
+  width: 3.43em;
+  height: 3.43em;
+  animation-delay: 7s;
   animation-duration: 18s;
 }
 .ani-portada li:nth-child(9) {
   left: 21%;
-  width: 55px;
-  height: 55px;
-  animation-delay: 2s;
+  width: 3.12em;
+  height: 3.12em;
+  animation-delay: 4s;
   animation-duration: 15s;
 }
 .ani-portada li:nth-child(10) {
-  left: 10%;
-  width: 150px;
-  height: 150px;
+  left: 12%;
+  width: 6.25em;
+  height: 6.25em;
   animation-duration: 22s;
 }
 .ani-portada li:nth-child(11) {
   right: 20%;
-  width: 80px;
-  height: 80px;
-  animation-delay: 1s;
+  width: 5em;
+  height: 5em;
+  animation-delay: 6s;
   animation-duration: 25s;
 }
 @keyframes ani-portada {
@@ -148,7 +149,7 @@ body {
 
 /* CONTENIDO PORTADA */
 .portada {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   height: 100%;
   display: flex;
@@ -651,6 +652,9 @@ footer {
 /* -----------------------------------------RESPONSIVE------------------------------------------ */
 /* HASTA 768PX */
 @media screen and (max-width: 768px) {
+  .ani-portada {
+    font-size: 12px;
+  }
   .btn-menu {
     top: 20px;
     right: 20px;
@@ -690,6 +694,9 @@ footer {
 
 /* HASTA 578PX */
 @media screen and (max-width: 578px) {
+  .ani-portada {
+    font-size: 9px;
+  }
   .btn-menu {
     top: 10px;
     right: 10px;
@@ -699,7 +706,7 @@ footer {
     right: 10px;
   }
   .portada h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .menu-navegacion {
     width: 100vw;
@@ -763,6 +770,9 @@ footer {
 
 /* HASTA 320PX */
 @media screen and (max-width: 320px) {
+  .ani-portada {
+    font-size: 7px;
+  }
   .btn-menu {
     top: 5px;
     right: 5px;
