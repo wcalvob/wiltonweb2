@@ -92,3 +92,5 @@ const aparecerImagen = (imagen) => {
   agregarImg.classList.toggle("zoomImg");
   btnMenu.classList.toggle("ocultarBtnMenu");
 };
+
+
