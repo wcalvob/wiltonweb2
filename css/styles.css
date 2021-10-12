@@ -47,7 +47,7 @@ body {
   bottom: -150px;
   background-size: cover;
   animation: ani-portada 15s linear infinite;
-  border: 2px solid rgba(255, 255, 255, 0.25);
+  border: 2px solid rgba(255, 255, 255, 0.2);
 }
 .ani-portada li:nth-child(1) {
   left: 25%;
@@ -628,10 +628,10 @@ footer {
   display: inline-block;
   width: 60px;
   height: 60px;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.5);
   margin: 0 10px;
 }
 .social-media-icon i {
@@ -639,7 +639,8 @@ footer {
   line-height: 60px;
 }
 .social-media-icon:hover {
-  background: rgba(255, 255, 255, 0.08);
+  color: rgb(255, 255, 255);
+  
 }
 .linea {
   width: 90%;
