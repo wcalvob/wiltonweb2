@@ -334,6 +334,9 @@ body {
   width: 70px;
   margin: 10px;
 }
+.sm-contenido p{
+  text-align: justify;
+}
 .div-logos {
   display: flex;
   flex-wrap: wrap;
