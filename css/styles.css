@@ -334,7 +334,7 @@ body {
   width: 70px;
   margin: 10px;
 }
-.sm-contenido p{
+.sm-contenido p {
   text-align: justify;
 }
 .div-logos {
@@ -416,7 +416,7 @@ body {
 .portafolio {
   margin-top: 0px;
   padding-bottom: 50px;
-  background: rgb(0, 0, 0);
+  background: rgb(33, 47, 61);
 }
 .portafolio h2 {
   color: rgb(255, 255, 255);
@@ -602,7 +602,7 @@ button {
 
 /* ---------------------------------PIE DE PAGINA REDES SOCIALES-------------------------------- */
 footer {
-  background: rgb(0, 0, 0);
+  background: rgb(23, 32, 42);
   padding-bottom: 0.1px;
 }
 .footer {
@@ -643,7 +643,6 @@ footer {
 }
 .social-media-icon:hover {
   color: rgb(255, 255, 255);
-  
 }
 .linea {
   width: 90%;
@@ -739,6 +738,7 @@ footer {
   }
   .contacto {
     padding: 15px 0px;
+    background: rgb(33, 47, 61);
   }
   form {
     width: 90%;
