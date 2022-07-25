@@ -336,6 +336,7 @@ body {
 }
 .sm-contenido p {
   text-align: justify;
+  padding-left: 5px;
 }
 .div-logos {
   display: flex;
